@@ -10,4 +10,14 @@ const alumno: Alumno = {
     email: 'aldo@gmail.com'
 }
 
-console.log(alumno.nombre);
+console.table(alumno.nombre);
+
+let mascotas: string[] = ['perro', 'gato', 'perico'];
+
+mascotas[1] = 'perico verde';
+mascotas.push('gato dos');
+console.table(mascotas);
+
+let temp: (string | number)[] = [];
+temp.push('RCR');
+temp.push(45);
