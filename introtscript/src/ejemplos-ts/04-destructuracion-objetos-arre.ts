@@ -33,3 +33,12 @@ const { autor } = detalles;
 console.log(`El volumen actual es ${volumen}`);
 console.log(`Los segundos son ${segundo}`);
 console.log(`El autor es ${autor}`);
+
+console.log('ARREGLOS');
+const colores: string[] = ['blue', 'red', 'green', 'violet'];
+console.log(`Color 1: ${colores[0]}`);
+console.log(`Color 2: ${colores[1]}`);
+console.log(`Color 3: ${colores[2]}`);
+
+const [a, , , b] = colores;
+console.log(`Color 1: ${a}`);
